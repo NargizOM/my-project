@@ -1,5 +1,32 @@
-div{
-	width: 500px;
-	height: 500px;
+body{
+	margin: 4% 20%;
+	padding: 0;
+	background: #404247;
+}
+.slider{
+	width: 800px;
+	height: 400px;
+	background: url(../images/fjords.jpg);
+	margin: 1000px, 800px;
+	animation: slide 30s infinite;
 	
+}
+@keyframes slide {
+	25%{
+
+	background: url(../images/norway.jpg);
+	}
+	50%{
+
+	background: url(../images/picture.jpg);
+	}
+	75%{
+
+	background: url(../images/vigelandspark.jpg);
+	}
+	100%{
+
+	background: url(../images/norway.jpg);
+	}
+
 }
